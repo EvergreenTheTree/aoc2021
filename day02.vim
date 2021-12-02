@@ -1,4 +1,4 @@
-read day02
+read day02_input
 
 " Part 1
 let g:forward = 0

@@ -1,4 +1,4 @@
-read day01
+read day01_input
 
 " Part 1
 let g:count = 0 | %s/\v\ze^(\d+)\n(\d+)/\=execute("let g:count += " . (str2nr(submatch(1)) < str2nr(submatch(2))))/
