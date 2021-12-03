@@ -16,8 +16,6 @@ for i in range(1, 12)
     let gamma .= (zerocount < onecount) ? "1" : "0"
     let epsilon .= (zerocount > onecount) ? "1" : "0"
 endfor
-call Print("gamma: " .. gamma)
-call Print("epsilon: " .. epsilon)
 call Print("part 1: " .. str2nr(gamma, 2) * str2nr(epsilon, 2))
 
 " Part 2
